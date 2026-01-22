@@ -13,7 +13,7 @@ import Navbar from "./components/Navbar.tsx"
 const App = () => {
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]" >
-      <Navbar>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/collection' element={<Collection/>} />
@@ -25,7 +25,7 @@ const App = () => {
         <Route path="/place-order" element={<PlaceOrder/>} />
         <Route path="/orders" element={<Orders/>} />
       </Routes>
-      </Navbar>
+
     </div>
   )
 }
