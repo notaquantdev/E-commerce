@@ -32,3 +32,6 @@ const BestSeller = () => {
 }
 
 export default BestSeller
+
+SELECT brand, COUNT (brand) FROM cars 
+  WHERE CEIL(AVG(price))
